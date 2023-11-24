@@ -1,4 +1,4 @@
-# CTF COMMENTAIRE HTML - IDOR + COMMENTAIRE CODE SOURCE
+# CTF - IDOR + COMMENTAIRE CODE SOURCE
 
 ## Présentation du CTF 
 **ID** 36 dans **les CTFs de Cyrhades**
