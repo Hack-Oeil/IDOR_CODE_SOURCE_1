@@ -1,10 +1,12 @@
-create table user (
-	id INT,
-	firstname VARCHAR(50),
-	lastname VARCHAR(50),
-	username VARCHAR(50),
-	password VARCHAR(50)
-);
+CREATE TABLE IF NOT EXISTS `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `firstname` varchar(50) DEFAULT NULL,
+  `lastname` varchar(50) DEFAULT NULL,
+  `username` varchar(50) DEFAULT NULL,
+  `password` varchar(80) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
 insert into user (id, firstname, lastname, username, password) values (1, 'Admin', 'Immo', 'idor_admin_21', 'pistache_et_chocolat');
 insert into user (id, firstname, lastname, username, password) values (2, 'guest', 'guest', 'guest', 'guest');
 insert into user (id, firstname, lastname, username, password) values (3, 'Admin', '-', 'admin@boutik.com', 'c23fb44bf5c9d5ecd6030119b8f712fcb94c87ee');
