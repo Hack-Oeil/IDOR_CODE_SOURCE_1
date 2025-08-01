@@ -10,7 +10,5 @@ return function(\FastRoute\RouteCollector $router) {
  
     $router->addRoute('GET', '/profil', 'App\Controller\HomeController::profil');
 
-    $router->addRoute('GET', '/forgot_password', 'App\Controller\HomeController::forgot_password');
- 
     $router->addRoute('GET', '/deconnexion', 'App\Controller\HomeController::deconnect');
 };
