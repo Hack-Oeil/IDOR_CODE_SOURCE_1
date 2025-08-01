@@ -7,7 +7,7 @@ Dans ce CTF vous devez trouver le mot de passe de l'administrateur et vous conne
 
 
 ## Aperçu
-![infos/capture.jpg](infos/capture.jpg)
+![presentation/assets/images/capture.jpg](presentation/assets/images/capture.jpg)
 
 
 
